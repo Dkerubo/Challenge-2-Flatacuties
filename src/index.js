@@ -57,7 +57,7 @@ document
     const newName = document.getElementById("name").value;
     const newImageUrl = document.getElementById("image-url").value;
 
-    // Create new character object
+    // Create new character objects
     const newCharacter = {
       name: newName,
       image: newImageUrl,
@@ -73,7 +73,7 @@ document
     // Show character details immediately
     displayCharacterDetails(newCharacter);
 
-    // Clear the form fields
+    // Clear the form fields 
     document.getElementById("name").value = "";
     document.getElementById("image-url").value = "";
   });
